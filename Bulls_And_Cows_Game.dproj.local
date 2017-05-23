@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/05/16 15:37:40.000.557,=C:\Users\Alexis\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2017/05/16 15:51:27.000.943,C:\Users\Alexis\Documents\Embarcadero\Studio\Projets\Project1.dproj=C:\Users\Alexis\Documents\Embarcadero\Studio\Projets\Bulls_And_Cows_Game.dproj</Transaction>
+    <Transaction>2017/05/16 15:51:43.000.245,C:\Users\Alexis\Documents\Embarcadero\Studio\Projets\Unit1.dfm=C:\Users\Alexis\Documents\Embarcadero\Studio\Projets\BullsAndCowsGame.dfm</Transaction>
+    <Transaction>2017/05/16 15:51:43.000.245,C:\Users\Alexis\Documents\Embarcadero\Studio\Projets\Unit1.pas=C:\Users\Alexis\Documents\Embarcadero\Studio\Projets\BullsAndCowsGame.pas</Transaction>
+    <Transaction>2017/05/16 15:54:09.000.715,C:\Users\Alexis\Documents\Embarcadero\Studio\Projets\BullsAndCowsGame.dfm=C:\Users\Alexis\Documents\Embarcadero\Studio\Projets\CM3T\Bulls and Cows Game\BullsAndCowsGame.dfm</Transaction>
+    <Transaction>2017/05/16 15:54:09.000.715,C:\Users\Alexis\Documents\Embarcadero\Studio\Projets\BullsAndCowsGame.pas=C:\Users\Alexis\Documents\Embarcadero\Studio\Projets\CM3T\Bulls and Cows Game\BullsAndCowsGame.pas</Transaction>
+    <Transaction>2017/05/16 15:54:11.000.775,C:\Users\Alexis\Documents\Embarcadero\Studio\Projets\Bulls_And_Cows_Game.dproj=C:\Users\Alexis\Documents\Embarcadero\Studio\Projets\CM3T\Bulls and Cows Game\Bulls_And_Cows_Game.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

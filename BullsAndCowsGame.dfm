@@ -1,0 +1,234 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'BullsAndCowsGame'
+  ClientHeight = 406
+  ClientWidth = 673
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object L_VotreMot: TLabel
+    Left = 64
+    Top = 91
+    Width = 82
+    Height = 19
+    Caption = 'Votre mot :'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object L_Bulls: TLabel
+    Left = 89
+    Top = 158
+    Width = 33
+    Height = 19
+    Caption = 'Bulls'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object L_Cows: TLabel
+    Left = 89
+    Top = 219
+    Width = 38
+    Height = 19
+    Caption = 'Cows'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object L_NbCarac: TLabel
+    Left = 320
+    Top = 91
+    Width = 165
+    Height = 19
+    Caption = 'Nombre de caract'#232'res :'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object L_NbEssais: TLabel
+    Left = 320
+    Top = 161
+    Width = 94
+    Height = 16
+    Caption = 'Nombre d'#39'essais'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object E_MotSaisi: TEdit
+    Left = 160
+    Top = 88
+    Width = 121
+    Height = 27
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+  end
+  object E_Bulls: TEdit
+    Left = 160
+    Top = 155
+    Width = 121
+    Height = 27
+    Enabled = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object E_Cows: TEdit
+    Left = 160
+    Top = 216
+    Width = 121
+    Height = 27
+    Enabled = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+  end
+  object E_NbCarac: TEdit
+    Left = 488
+    Top = 88
+    Width = 121
+    Height = 27
+    Enabled = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+  end
+  object E_NbEssais: TEdit
+    Left = 442
+    Top = 158
+    Width = 121
+    Height = 24
+    Enabled = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 4
+  end
+  object E_GagnePerdu: TEdit
+    Left = 272
+    Top = 8
+    Width = 153
+    Height = 24
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 5
+  end
+  object B_Check: TButton
+    Left = 104
+    Top = 328
+    Width = 75
+    Height = 25
+    Caption = 'Check'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 6
+    OnClick = B_CheckClick
+  end
+  object B_Retry: TButton
+    Left = 272
+    Top = 328
+    Width = 129
+    Height = 25
+    Caption = 'Recommencer'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 7
+    OnClick = B_RetryClick
+  end
+  object B_Exit: TButton
+    Left = 488
+    Top = 328
+    Width = 75
+    Height = 25
+    Caption = 'Quitter'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 8
+    OnClick = B_ExitClick
+  end
+  object M_ListeMots: TMemo
+    Left = 8
+    Top = 8
+    Width = 133
+    Height = 48
+    Lines.Strings = (
+      'M_ListeMots')
+    ReadOnly = True
+    ScrollBars = ssVertical
+    TabOrder = 9
+    Visible = False
+  end
+  object M_MotAleatoire: TMemo
+    Left = 147
+    Top = 8
+    Width = 104
+    Height = 32
+    Lines.Strings = (
+      'M_MotAleatoire')
+    ReadOnly = True
+    TabOrder = 10
+    Visible = False
+  end
+end
